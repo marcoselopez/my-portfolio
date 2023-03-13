@@ -7,6 +7,7 @@ import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlin
 import ImageOutlinedIcon from '@mui/icons-material/ImageOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import AppsOutlinedIcon from '@mui/icons-material/AppsOutlined';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
 
@@ -58,7 +59,7 @@ const Header = () => {
             </li>
           </ul>
 
-          <i className="uil uil-times nav-close" onClick={() => setToggleMenu(!toggleMenu)}></i>
+          <CloseIcon className="nav-close" onClick={() => setToggleMenu(!toggleMenu)} />
         </div>
 
         <div className="nav-toggle" onClick={() => setToggleMenu(!toggleMenu)}>

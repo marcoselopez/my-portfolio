@@ -1,5 +1,11 @@
 import React from 'react';
 import VerifiedIcon from '@mui/icons-material/Verified';
+import { styled } from '@mui/material';
+
+const CustomVerifiedIcon = styled(VerifiedIcon)({
+  fontSize: '1rem',
+  color: 'var(--title-color)'
+})
 
 const Frontend = () => {
   return (
@@ -9,7 +15,7 @@ const Frontend = () => {
       <div className="skills-box">
         <div className="skills-group">
           <div className="skills-data">
-            <VerifiedIcon />
+            <CustomVerifiedIcon />
 
             <div>
               <h3 className="skills-name">HTML</h3>
@@ -18,7 +24,7 @@ const Frontend = () => {
           </div>
 
           <div className="skills-data">
-            <VerifiedIcon />
+            <CustomVerifiedIcon />
 
             <div>
               <h3 className="skills-name">CSS</h3>
@@ -27,7 +33,7 @@ const Frontend = () => {
           </div>
 
           <div className="skills-data">
-            <VerifiedIcon />
+            <CustomVerifiedIcon />
 
             <div>
               <h3 className="skills-name">Javascript</h3>
@@ -38,7 +44,7 @@ const Frontend = () => {
 
         <div className="skills-group">
           <div className="skills-data">
-            <VerifiedIcon />
+            <CustomVerifiedIcon />
 
             <div>
               <h3 className="skills-name">Material UI</h3>
@@ -47,7 +53,7 @@ const Frontend = () => {
           </div>
 
           <div className="skills-data">
-            <VerifiedIcon />
+            <CustomVerifiedIcon />
 
             <div>
               <h3 className="skills-name">React</h3>
@@ -56,7 +62,7 @@ const Frontend = () => {
           </div>
 
           <div className="skills-data">
-            <VerifiedIcon />
+            <CustomVerifiedIcon />
 
             <div>
               <h3 className="skills-name">Angular</h3>
